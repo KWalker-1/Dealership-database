@@ -1,5 +1,5 @@
 # Dealership-database
-This repository contains the SQL scripts to set up and populate a database for managing a dealership's operations. The database includes tables for storing information about customers, employees, vehicles, sales, and more.
+This repository contains the MySQL scripts to set up and populate a database for managing a dealership's operations. The database includes tables for storing information about customers, employees, vehicles, sales, and more.
 
 ## Overview
 
