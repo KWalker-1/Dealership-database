@@ -17,17 +17,20 @@ This repository contains the SQL scripts to set up and populate a database for m
 3. Vehicles: Data related to vehicles available for sale, such as make, model, color, and price.
 4. Sales: Records of vehicle sales, linking customers, employees, and vehicles involved in each transaction.
 
+## Getting Started
+
+To get started with the Dealership Database:
+
+1. Download the provided SQL dump file.
+2. Create a database called "dealership". (If you wish to call it something else you may modify the dump file and switch out "dealership" on line 2 for your desired name.)
+3. "USE dealership;"
+4. "SOURCE /pathway to location of file/Dealership.sql;"
+5. Finally "SHOW tables;" to make sure it uploaded successfully.
+
+
 ## Usage
 
 1. Database Setup: Execute the provided SQL script to create the dealership database and its tables.
 2. Data Population: Optionally, populate the tables with sample data to test functionality.
 3. Customization: Modify the database structure or add additional tables/views as per your dealership's specific requirements.
 
-## Getting Started
-
-To get started with the Dealership Database:
-
-Clone this repository to your local machine.
-Import the SQL script into your preferred database management system.
-Execute the script to create the database structure and optionally populate it with sample data.
-Start querying the database to manage dealership operations efficiently.
