@@ -3,25 +3,25 @@ This repository contains the SQL scripts to set up and populate a database for m
 
 ## Overview
 
-Tables: The database consists of several tables, including customer, employee, vehicle, sale, and more, each serving a specific purpose in managing dealership operations.
-Data: Sample data is provided for each table, showcasing how the database can be populated with realistic information.
-Relationships: The tables are connected through foreign key constraints, ensuring data integrity and enabling efficient querying of related information.
-Views: Temporary views such as customerview and saleview are included to facilitate specific data presentation needs. Saleview is created to show which employee helped sale a particular vehicle to a certain customer.
+1. Tables: The database consists of several tables, including customer, employee, vehicle, sale, and more, each serving a specific purpose in managing dealership operations.
+2. Data: Sample data is provided for each table, showcasing how the database can be populated with realistic information.
+3. Relationships: The tables are connected through foreign key constraints, ensuring data integrity and enabling efficient querying of related information.
+4. Views: Temporary views such as customerview and saleview are included to facilitate specific data presentation needs. Saleview is created to show which employee helped sale a particular vehicle to a certain customer.
 
 ## Table Structure
 
 <img width="755" alt="Screenshot 2024-05-02 at 2 06 21 PM" src="https://github.com/KWalker-1/Dealership-database/assets/168217676/5a440328-ac96-4310-9313-6418f88c4530">
 
-Customers: Information about customers, including their names, contact details, and addresses.
-Employees: Details about dealership staff, including their roles, contact information, and work addresses.
-Vehicles: Data related to vehicles available for sale, such as make, model, color, and price.
-Sales: Records of vehicle sales, linking customers, employees, and vehicles involved in each transaction.
+1. Customers: Information about customers, including their names, contact details, and addresses.
+2. Employees: Details about dealership staff, including their roles, contact information, and work addresses.
+3. Vehicles: Data related to vehicles available for sale, such as make, model, color, and price.
+4. Sales: Records of vehicle sales, linking customers, employees, and vehicles involved in each transaction.
 
 ## Usage
 
-Database Setup: Execute the provided SQL script to create the dealership database and its tables.
-Data Population: Optionally, populate the tables with sample data to test functionality.
-Customization: Modify the database structure or add additional tables/views as per your dealership's specific requirements.
+1. Database Setup: Execute the provided SQL script to create the dealership database and its tables.
+2. Data Population: Optionally, populate the tables with sample data to test functionality.
+3. Customization: Modify the database structure or add additional tables/views as per your dealership's specific requirements.
 
 ## Getting Started
 
